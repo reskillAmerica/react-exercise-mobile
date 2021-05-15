@@ -1,6 +1,6 @@
 @media (max-width: 500px) {
   body {
-    /* background-image: url('../../public/images/bg-intro-mobile.png'); */
+    background-image: url('../images/bg-intro-mobile.png');
     background-color: hsl(0, 100%, 74%);
   }
   h2,
@@ -50,4 +50,64 @@
   a {
     color: red;
   }
+}
+
+body {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url('../images/bg-intro-mobile.png');
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.header-container {
+  margin: auto;
+  padding-top: 40%;
+}
+p {
+  color: rgb(227, 227, 227);
+  font-family: sans-serif;
+}
+h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+.textarea {
+  padding: 10px;
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 20px 20px 25px -25px;
+}
+.body-container {
+  margin: auto;
+  width: 80%;
+}
+.form {
+  margin-top: 10px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto;
+  background-color: white;
+}
+.input-field {
+  height: 30px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+button {
+  height: 30px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+}
+a {
+  color: red;
 }
